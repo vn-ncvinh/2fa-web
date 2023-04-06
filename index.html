@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Get 2FA Code</title>
+  <link rel="stylesheet" href="css/otp.css">
+  <script src="js/jsOTP.min.js"></script>
+</head>
+<body>
+  <div class="content">
+    <h1>Get 2FA Code</h1>
+    <hr>
+    <a>Secret: </a><input name="secret" type="text" maxlength="512" id="secret" value="JBSWY3DPEHPK3PXP"
+      onchange="updatSecret();" />
+    <h2 id="code-1" onclick="copyText();">OTP CODE</h2>
+    <p id="ticker">Expires later: time second</p>
+    <progress id="timecountdown" value="0" max="30"></progress>
+  </div>
+  <script src="js/otp.js"></script>
+</body>
+<footer>
+  <p>&copy; 2021 by NCV</p>
+</footer>
+</html>

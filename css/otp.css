@@ -1,0 +1,39 @@
+body {
+    padding-top: 5%;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: whitesmoke;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .content {
+    max-width: 500px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  input[type=text] {
+    font-size: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  #ticker {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  progress {
+    width: 100%;
+    padding: 20px;
+  }
