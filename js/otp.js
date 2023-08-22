@@ -5,6 +5,7 @@ if (urlParams.has('secret')) {
     const secretParam = urlParams.get('secret');
     document.getElementById("secret").value = secretParam;
     console.log(document.getElementById("secret").value);
+    updatSecret();
 }
 
 var secret = document.getElementById("secret").value;
