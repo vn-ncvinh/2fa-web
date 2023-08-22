@@ -5,10 +5,8 @@ if (urlParams.has('secret')) {
     const secretParam = urlParams.get('secret');
     document.getElementById("secret").value = secretParam;
     console.log(document.getElementById("secret").value);
-    updatSecret();
+    
 }
-
-var secret = document.getElementById("secret").value;
 
 function copyText() {
     var copyText = totp.getOtp(secret);
@@ -29,6 +27,7 @@ function updateTotp() {
     document.getElementById("code-1").innerText = totp.getOtp(secret);
 }
 
+updatSecret();
 updateTotp();
 
 function timeLoop() {
